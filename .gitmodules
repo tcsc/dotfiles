@@ -1,0 +1,3 @@
+[submodule "bundles/vimerl"]
+	path = bundles/vimerl
+	url = git://github.com/jimenezrick/vimerl.git

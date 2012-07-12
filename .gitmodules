@@ -1,3 +1,6 @@
-[submodule "bundles/vimerl"]
-	path = bundles/vimerl
+[submodule "vimfiles/bundles/vimerl"]
+	path = vimfiles/bundles/vimerl
 	url = git://github.com/jimenezrick/vimerl.git
+[submodule "vimfiles/bundles/command-t"]
+	path = vimfiles/bundles/command-t
+	url = git://github.com/wincent/Command-T.git

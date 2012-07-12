@@ -4,3 +4,12 @@
 [submodule "vimfiles/bundles/command-t"]
 	path = vimfiles/bundles/command-t
 	url = git://github.com/wincent/Command-T.git
+[submodule "vimfiles/bundles/python-mode"]
+	path = vimfiles/bundles/python-mode
+	url = git://github.com/klen/python-mode.git
+[submodule "vimfiles/bundles/vcscommand"]
+	path = vimfiles/bundles/vcscommand
+	url = git://repo.or.cz/vcscommand.git
+[submodule "vimfiles/bundles/fsharp"]
+	path = vimfiles/bundles/fsharp
+	url = git://github.com/kongo2002/fsharp-vim.git

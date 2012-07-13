@@ -1,6 +1,6 @@
 filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+silent! call pathogen#runtime_append_all_bundles()
+silent! call pathogen#helptags()
 filetype plugin indent on
 
 let mapleader = ","
@@ -33,5 +33,10 @@ nnoremap <leader>w <C-w>
 
 colorscheme cthulhian
 if has('gui_running')
-  set guifont=Menlo\ Regular:h12
+  if has('win32')
+    set guifont=Consolas:h11
+  else
+    set guifont=Menlo\ Regular:h12
+  endif
 endif
+source ~/.vimrc.local

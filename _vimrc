@@ -13,6 +13,7 @@ set shiftwidth=2
 set softtabstop=2 
 set expandtab
 set ruler
+set encoding=utf-8
 
 nnoremap / /\v
 vnoremap / /\v
@@ -31,6 +32,9 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 
 "Remap w to do window commands
 nnoremap <leader>w <C-w>
+
+" Setup folds
+set foldlevelstart=99 " All folds open
 
 colorscheme cthulhian
 source ~/.vimrc.local

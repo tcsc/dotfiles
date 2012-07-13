@@ -1,15 +1,15 @@
-[submodule "vimfiles/bundles/vimerl"]
-	path = vimfiles/bundles/vimerl
+[submodule "vimfiles/bundle/vimerl"]
+	path = vimfiles/bundle/vimerl
 	url = git://github.com/jimenezrick/vimerl.git
-[submodule "vimfiles/bundles/command-t"]
-	path = vimfiles/bundles/command-t
+[submodule "vimfiles/bundle/command-t"]
+	path = vimfiles/bundle/command-t
 	url = git://github.com/wincent/Command-T.git
-[submodule "vimfiles/bundles/python-mode"]
-	path = vimfiles/bundles/python-mode
+[submodule "vimfiles/bundle/python-mode"]
+	path = vimfiles/bundle/python-mode
 	url = git://github.com/klen/python-mode.git
-[submodule "vimfiles/bundles/vcscommand"]
-	path = vimfiles/bundles/vcscommand
+[submodule "vimfiles/bundle/vcscommand"]
+	path = vimfiles/bundle/vcscommand
 	url = git://repo.or.cz/vcscommand.git
-[submodule "vimfiles/bundles/fsharp"]
-	path = vimfiles/bundles/fsharp
+[submodule "vimfiles/bundle/fsharp"]
+	path = vimfiles/bundle/fsharp
 	url = git://github.com/kongo2002/fsharp-vim.git

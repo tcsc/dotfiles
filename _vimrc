@@ -32,11 +32,4 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 nnoremap <leader>w <C-w>
 
 colorscheme cthulhian
-if has('gui_running')
-  if has('win32')
-    set guifont=Consolas:h11
-  else
-    set guifont=Menlo\ Regular:h12
-  endif
-endif
 source ~/.vimrc.local
